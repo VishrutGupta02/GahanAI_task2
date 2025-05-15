@@ -1,0 +1,214 @@
+[0.010s] Invoking command in '/home/batman/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/batman/ros2_ws/src/training_interfaces -DCMAKE_INSTALL_PREFIX=/home/batman/ros2_ws/install/training_interfaces
+[0.020s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.119s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.362s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.739s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.741s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.770s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.770s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.770s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.770s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.790s] -- Found PythonExtra: .so  
+[0.818s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.842s] -- Added test 'lint_cmake' to check CMake code style
+[0.843s] -- Added test 'xmllint' to check XML markup files
+[0.845s] -- Configuring done
+[0.867s] -- Generating done
+[0.873s] -- Build files have been written to: /home/batman/ros2_ws/build/training_interfaces
+[0.879s] Invoked command in '/home/batman/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/batman/ros2_ws/src/training_interfaces -DCMAKE_INSTALL_PREFIX=/home/batman/ros2_ws/install/training_interfaces
+[0.881s] Invoking command in '/home/batman/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/batman/ros2_ws/build/training_interfaces -- -j16 -l16
+[0.921s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.931s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.939s] [  6%] Built target ament_cmake_python_copy_training_interfaces
+[1.111s] running egg_info
+[1.118s] [  6%] Built target training_interfaces__cpp
+[1.118s] [  9%] [32mBuilding C object CMakeFiles/training_interfaces__rosidl_generator_c.dir/rosidl_generator_c/training_interfaces/msg/detail/person__functions.c.o[0m
+[1.123s] creating training_interfaces.egg-info
+[1.123s] writing training_interfaces.egg-info/PKG-INFO
+[1.123s] writing dependency_links to training_interfaces.egg-info/dependency_links.txt
+[1.123s] writing top-level names to training_interfaces.egg-info/top_level.txt
+[1.123s] writing manifest file 'training_interfaces.egg-info/SOURCES.txt'
+[1.127s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.127s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.127s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.160s] reading manifest file 'training_interfaces.egg-info/SOURCES.txt'
+[1.161s] writing manifest file 'training_interfaces.egg-info/SOURCES.txt'
+[1.172s] [ 22%] [32m[1mLinking C shared library libtraining_interfaces__rosidl_generator_c.so[0m
+[1.192s] [ 22%] Built target ament_cmake_python_build_training_interfaces_egg
+[1.206s] [ 22%] Built target training_interfaces__rosidl_generator_c
+[1.215s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.215s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.215s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.291s] [ 35%] [32mBuilding CXX object CMakeFiles/training_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/training_interfaces/msg/person__type_support.cpp.o[0m
+[1.301s] [ 38%] [32mBuilding CXX object CMakeFiles/training_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/training_interfaces/msg/detail/person__type_support.cpp.o[0m
+[1.306s] [ 41%] [32mBuilding CXX object CMakeFiles/training_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/training_interfaces/msg/detail/dds_fastrtps/person__type_support.cpp.o[0m
+[1.377s] [ 45%] [32mBuilding CXX object CMakeFiles/training_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/training_interfaces/msg/person__type_support.cpp.o[0m
+[1.396s] [ 51%] [32mBuilding C object CMakeFiles/training_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/training_interfaces/msg/detail/person__type_support.c.o[0m
+[1.396s] [ 51%] [32mBuilding CXX object CMakeFiles/training_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/training_interfaces/msg/detail/person__type_support_c.cpp.o[0m
+[1.404s] [ 54%] [32m[1mLinking CXX shared library libtraining_interfaces__rosidl_typesupport_c.so[0m
+[1.424s] [ 58%] [32m[1mLinking C shared library libtraining_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.439s] [ 58%] Built target training_interfaces__rosidl_typesupport_c
+[1.453s] [ 58%] Built target training_interfaces__rosidl_typesupport_introspection_c
+[1.500s] [ 61%] [32m[1mLinking CXX shared library libtraining_interfaces__rosidl_typesupport_cpp.so[0m
+[1.535s] [ 61%] Built target training_interfaces__rosidl_typesupport_cpp
+[1.586s] [ 64%] [32m[1mLinking CXX shared library libtraining_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.590s] [ 67%] [32m[1mLinking CXX shared library libtraining_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.635s] [ 70%] [32m[1mLinking CXX shared library libtraining_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.642s] [ 70%] Built target training_interfaces__rosidl_typesupport_introspection_cpp
+[1.658s] [ 70%] Built target training_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.697s] [ 70%] Built target training_interfaces__rosidl_typesupport_fastrtps_c
+[1.718s] [ 70%] Built target training_interfaces
+[1.739s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.920s] [ 74%] Built target training_interfaces__py
+[1.939s] [ 77%] [32mBuilding C object CMakeFiles/training_interfaces__rosidl_generator_py.dir/rosidl_generator_py/training_interfaces/msg/_person_s.c.o[0m
+[2.031s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/training_interfaces/libtraining_interfaces__rosidl_generator_py.so[0m
+[2.066s] [ 80%] Built target training_interfaces__rosidl_generator_py
+[2.085s] [ 83%] [32mBuilding C object CMakeFiles/training_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/training_interfaces/_training_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.085s] [ 87%] [32mBuilding C object CMakeFiles/training_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/training_interfaces/_training_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.085s] [ 90%] [32mBuilding C object CMakeFiles/training_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/training_interfaces/_training_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.154s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/training_interfaces/training_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.155s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/training_interfaces/training_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.161s] [100%] [32m[1mLinking C shared library rosidl_generator_py/training_interfaces/training_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.182s] [100%] Built target training_interfaces__rosidl_typesupport_c__pyext
+[2.183s] [100%] Built target training_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.190s] [100%] Built target training_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.203s] Invoked command in '/home/batman/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/batman/ros2_ws/build/training_interfaces -- -j16 -l16
+[2.213s] Invoking command in '/home/batman/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/batman/ros2_ws/build/training_interfaces
+[2.220s] -- Install configuration: ""
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/ament_index/resource_index/rosidl_interfaces/training_interfaces
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/person.h
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__functions.h
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__type_support.h
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__functions.c
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__struct.h
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.220s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/library_path.sh
+[2.221s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/library_path.dsv
+[2.221s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_generator_c.so
+[2.221s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_generator_c.so" to ""
+[2.221s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces
+[2.221s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg
+[2.221s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail
+[2.221s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__rosidl_typesupport_fastrtps_c.h
+[2.221s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.221s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.222s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.222s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces
+[2.222s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg
+[2.222s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.222s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail
+[2.222s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__rosidl_typesupport_introspection_c.h
+[2.222s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__type_support.c
+[2.222s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_introspection_c.so
+[2.222s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.222s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_c.so
+[2.222s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_c.so" to ""
+[2.222s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces
+[2.223s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.223s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__builder.hpp
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__type_support.hpp
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__traits.hpp
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__struct.hpp
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/person.hpp
+[2.223s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces
+[2.223s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.223s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/dds_fastrtps
+[2.223s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.224s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.224s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces
+[2.224s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg
+[2.224s] -- Up-to-date: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail
+[2.224s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__type_support.cpp
+[2.224s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/include/training_interfaces/training_interfaces/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp
+[2.224s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.224s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.224s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_cpp.so
+[2.225s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/pythonpath.sh
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/pythonpath.dsv
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces-0.0.0-py3.10.egg-info
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg/__init__.py
+[2.225s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg/_person.py
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg/_person_s.c
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/_training_interfaces_s.ep.rosidl_typesupport_c.c
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/__init__.py
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/libtraining_interfaces__rosidl_generator_py.so
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/_training_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/_training_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.226s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.251s] Listing '/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces'...
+[2.251s] Compiling '/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/__init__.py'...
+[2.252s] Listing '/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg'...
+[2.252s] Compiling '/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg/__init__.py'...
+[2.252s] Compiling '/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/msg/_person.py'...
+[2.256s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.256s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.256s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.256s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.257s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.257s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages/training_interfaces/training_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.257s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_generator_py.so
+[2.257s] -- Set runtime path of "/home/batman/ros2_ws/install/training_interfaces/lib/libtraining_interfaces__rosidl_generator_py.so" to ""
+[2.257s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/msg/Person.idl
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/msg/Person.msg
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/ament_index/resource_index/package_run_dependencies/training_interfaces
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/ament_index/resource_index/parent_prefix_path/training_interfaces
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/ament_prefix_path.sh
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/ament_prefix_path.dsv
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/path.sh
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/environment/path.dsv
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/local_setup.bash
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/local_setup.sh
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/local_setup.zsh
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/local_setup.dsv
+[2.258s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/package.dsv
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/ament_index/resource_index/packages/training_interfaces
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_generator_cExport.cmake
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.259s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_cExport.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_generator_cppExport.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_cppExport.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_generator_pyExport.cmake
+[2.260s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/export_training_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfacesConfig.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/cmake/training_interfacesConfig-version.cmake
+[2.261s] -- Installing: /home/batman/ros2_ws/install/training_interfaces/share/training_interfaces/package.xml
+[2.264s] Invoked command in '/home/batman/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/batman/ros2_ws/build/training_interfaces

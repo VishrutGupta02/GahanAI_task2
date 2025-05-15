@@ -1,0 +1,30 @@
+[0.836s] Invoking command in '/home/batman/ros2_ws/src/training': AMENT_PREFIX_PATH=/home/batman/ros2_ws/install/training_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/batman/ros2_ws/install/training_interfaces LD_LIBRARY_PATH=/home/batman/ros2_ws/install/training_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/batman/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batman/ros2_ws/install/training/lib/python3.10/site-packages:/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/batman/ros2_ws/build/training/build install --record /home/batman/ros2_ws/build/training/install.log --single-version-externally-managed install_data
+[0.945s] /home/batman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.945s]   warnings.warn(msg)
+[1.014s] running egg_info
+[1.026s] writing ../../build/training/training.egg-info/PKG-INFO
+[1.035s] writing dependency_links to ../../build/training/training.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../../build/training/training.egg-info/entry_points.txt
+[1.036s] writing requirements to ../../build/training/training.egg-info/requires.txt
+[1.036s] writing top-level names to ../../build/training/training.egg-info/top_level.txt
+[1.065s] reading manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[1.066s] writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[1.067s] running build
+[1.067s] running build_py
+[1.067s] copying training/__init__.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.068s] copying training/publisher.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.068s] copying training/subscriber.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.069s] running install
+[1.072s] running install_lib
+[1.084s] running install_data
+[1.085s] copying resource/training -> /home/batman/ros2_ws/install/training/share/ament_index/resource_index/packages
+[1.085s] copying package.xml -> /home/batman/ros2_ws/install/training/share/training
+[1.085s] running install_egg_info
+[1.098s] removing '/home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info' (and everything under it)
+[1.098s] Copying ../../build/training/training.egg-info to /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info
+[1.099s] running install_scripts
+[1.188s] Installing publisher script to /home/batman/ros2_ws/install/training/lib/training
+[1.188s] Installing serial_reader script to /home/batman/ros2_ws/install/training/lib/training
+[1.188s] Installing subscriber script to /home/batman/ros2_ws/install/training/lib/training
+[1.189s] writing list of installed files to '/home/batman/ros2_ws/build/training/install.log'
+[1.224s] Invoked command in '/home/batman/ros2_ws/src/training' returned '0': AMENT_PREFIX_PATH=/home/batman/ros2_ws/install/training_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/batman/ros2_ws/install/training_interfaces LD_LIBRARY_PATH=/home/batman/ros2_ws/install/training_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/batman/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batman/ros2_ws/install/training/lib/python3.10/site-packages:/home/batman/ros2_ws/install/training_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/batman/ros2_ws/build/training/build install --record /home/batman/ros2_ws/build/training/install.log --single-version-externally-managed install_data

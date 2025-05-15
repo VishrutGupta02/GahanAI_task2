@@ -1,0 +1,2 @@
+Invoking command in '/home/batman/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/batman/ros2_ws/src/training_interfaces -DCMAKE_INSTALL_PREFIX=/home/batman/ros2_ws/install/training_interfaces
+Invoked command in '/home/batman/ros2_ws/build/training_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/batman/ros2_ws/src/training_interfaces -DCMAKE_INSTALL_PREFIX=/home/batman/ros2_ws/install/training_interfaces

@@ -1,0 +1,6 @@
+{
+  "package_name": "training_interfaces",
+  "non_idl_tuples": [
+    "/home/batman/ros2_ws/src/training_interfaces:msg/Person.msg"
+  ]
+}

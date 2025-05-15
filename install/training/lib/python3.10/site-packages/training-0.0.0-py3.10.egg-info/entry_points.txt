@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = training.publisher:main
+serial_reader = training.serial_reader:main
+subscriber = training.subscriber:main

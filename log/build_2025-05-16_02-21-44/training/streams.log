@@ -1,0 +1,33 @@
+[0.588s] Invoking command in '/home/batman/ros2_ws/src/training': PYTHONPATH=/home/batman/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batman/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/batman/ros2_ws/build/training/build install --record /home/batman/ros2_ws/build/training/install.log --single-version-externally-managed install_data
+[0.682s] /home/batman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.682s]   warnings.warn(msg)
+[0.739s] running egg_info
+[0.749s] writing ../../build/training/training.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/training/training.egg-info/dependency_links.txt
+[0.750s] writing entry points to ../../build/training/training.egg-info/entry_points.txt
+[0.750s] writing requirements to ../../build/training/training.egg-info/requires.txt
+[0.750s] writing top-level names to ../../build/training/training.egg-info/top_level.txt
+[0.771s] reading manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.772s] copying training/__init__.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[0.772s] copying training/publisher.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[0.773s] copying training/serial_reader.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[0.773s] copying training/subscriber.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[0.773s] running install
+[0.776s] running install_lib
+[0.785s] copying /home/batman/ros2_ws/build/training/build/lib/training/serial_reader.py -> /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.785s] byte-compiling /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training/serial_reader.py to serial_reader.cpython-310.pyc
+[0.786s] running install_data
+[0.787s] copying resource/training -> /home/batman/ros2_ws/install/training/share/ament_index/resource_index/packages
+[0.787s] copying package.xml -> /home/batman/ros2_ws/install/training/share/training
+[0.787s] running install_egg_info
+[0.796s] removing '/home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info' (and everything under it)
+[0.796s] Copying ../../build/training/training.egg-info to /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info
+[0.797s] running install_scripts
+[0.876s] Installing publisher script to /home/batman/ros2_ws/install/training/lib/training
+[0.877s] Installing serial_reader script to /home/batman/ros2_ws/install/training/lib/training
+[0.877s] Installing subscriber script to /home/batman/ros2_ws/install/training/lib/training
+[0.877s] writing list of installed files to '/home/batman/ros2_ws/build/training/install.log'
+[0.893s] Invoked command in '/home/batman/ros2_ws/src/training' returned '0': PYTHONPATH=/home/batman/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batman/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/batman/ros2_ws/build/training/build install --record /home/batman/ros2_ws/build/training/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+[0.796s] Invoking command in '/home/batman/ros2_ws/src/training': PYTHONPATH=/home/batman/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batman/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/batman/ros2_ws/build/training/build install --record /home/batman/ros2_ws/build/training/install.log --single-version-externally-managed install_data
+[0.910s] /home/batman/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.910s]   warnings.warn(msg)
+[0.979s] running egg_info
+[0.990s] writing ../../build/training/training.egg-info/PKG-INFO
+[0.990s] writing dependency_links to ../../build/training/training.egg-info/dependency_links.txt
+[0.990s] writing entry points to ../../build/training/training.egg-info/entry_points.txt
+[0.991s] writing requirements to ../../build/training/training.egg-info/requires.txt
+[0.991s] writing top-level names to ../../build/training/training.egg-info/top_level.txt
+[1.013s] reading manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[1.014s] writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[1.014s] running build
+[1.014s] running build_py
+[1.014s] copying training/__init__.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.014s] copying training/publisher.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.015s] copying training/serial_reader.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.015s] copying training/subscriber.py -> /home/batman/ros2_ws/build/training/build/lib/training
+[1.015s] running install
+[1.018s] running install_lib
+[1.028s] copying /home/batman/ros2_ws/build/training/build/lib/training/__init__.py -> /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training
+[1.028s] copying /home/batman/ros2_ws/build/training/build/lib/training/serial_reader.py -> /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training
+[1.029s] byte-compiling /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training/__init__.py to __init__.cpython-310.pyc
+[1.029s] byte-compiling /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training/serial_reader.py to serial_reader.cpython-310.pyc
+[1.030s] running install_data
+[1.030s] copying resource/training -> /home/batman/ros2_ws/install/training/share/ament_index/resource_index/packages
+[1.030s] copying package.xml -> /home/batman/ros2_ws/install/training/share/training
+[1.030s] running install_egg_info
+[1.045s] removing '/home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info' (and everything under it)
+[1.046s] Copying ../../build/training/training.egg-info to /home/batman/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info
+[1.046s] running install_scripts
+[1.139s] Installing publisher script to /home/batman/ros2_ws/install/training/lib/training
+[1.139s] Installing serial_reader script to /home/batman/ros2_ws/install/training/lib/training
+[1.139s] Installing subscriber script to /home/batman/ros2_ws/install/training/lib/training
+[1.140s] writing list of installed files to '/home/batman/ros2_ws/build/training/install.log'
+[1.181s] Invoked command in '/home/batman/ros2_ws/src/training' returned '0': PYTHONPATH=/home/batman/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batman/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/batman/ros2_ws/build/training/build install --record /home/batman/ros2_ws/build/training/install.log --single-version-externally-managed install_data

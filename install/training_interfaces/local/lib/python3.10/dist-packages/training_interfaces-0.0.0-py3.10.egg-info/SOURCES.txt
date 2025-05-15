@@ -1,0 +1,8 @@
+setup.py
+training_interfaces/__init__.py
+training_interfaces.egg-info/PKG-INFO
+training_interfaces.egg-info/SOURCES.txt
+training_interfaces.egg-info/dependency_links.txt
+training_interfaces.egg-info/top_level.txt
+training_interfaces/msg/__init__.py
+training_interfaces/msg/_person.py

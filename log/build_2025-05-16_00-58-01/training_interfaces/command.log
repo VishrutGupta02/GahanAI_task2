@@ -1,0 +1,4 @@
+Invoking command in '/home/batman/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/batman/ros2_ws/build/training_interfaces -- -j16 -l16
+Invoked command in '/home/batman/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/batman/ros2_ws/build/training_interfaces -- -j16 -l16
+Invoking command in '/home/batman/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/batman/ros2_ws/build/training_interfaces
+Invoked command in '/home/batman/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/batman/ros2_ws/build/training_interfaces
